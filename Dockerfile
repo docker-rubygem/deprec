@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=2.1.10
+ENV VERSION=2.1.11
 
 RUN gem install deprec --version ${VERSION} --no-format-exec
 
